@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TiktokMagic</string>
+    <string name="setting">设置</string>
+    <string name="reset">重置</string>
+    <string name="query">查询</string>
+    <string name="test">测试</string>
+</resources>

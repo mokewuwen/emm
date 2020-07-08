@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <array name="asd">
+        <item>11111</item>
+        <item>2222</item>
+    </array>
+    <string name="app_name1">Test</string>
+</resources>

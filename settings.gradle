@@ -1,0 +1,3 @@
+include ':fb'
+include ':vector','tiktokmagic'
+rootProject.name='emm'
