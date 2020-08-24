@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu"
+        android:drawable="@drawable/ic_menu"
+        android:state_checked="true" />
+
+    <item
+        android:id="@+id/back"
+        android:drawable="@drawable/ic_back" />
+
+    <transition
+        android:drawable="@drawable/animated_menu_to_back"
+        android:fromId="@+id/menu"
+        android:toId="@+id/back" />
+
+    <transition
+        android:drawable="@drawable/animated_back_to_menu"
+        android:fromId="@+id/back"
+        android:toId="@+id/menu" />
+</animated-selector>

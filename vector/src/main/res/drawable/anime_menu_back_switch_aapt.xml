@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+    <item
+        android:id="@+id/menu"
+        android:drawable="@drawable/ic_menu"
+        android:state_checked="true" />
+
+    <item
+        android:id="@+id/back"
+        android:drawable="@drawable/ic_back" />
+
+    <transition
+        android:fromId="@+id/menu"
+        android:toId="@+id/back">
+        <aapt:attr name="android:drawable">
+            <animated-vector android:drawable="@drawable/ic_menu">
+                <target android:name="iconPath">
+                    <aapt:attr name="android:animation">
+                        <objectAnimator
+                            android:duration="300"
+                            android:propertyName="pathData"
+                            android:valueFrom="@string/path_data_menu"
+                            android:valueTo="@string/path_data_back"
+                            android:valueType="pathType" />
+                    </aapt:attr>
+                </target>
+            </animated-vector>
+        </aapt:attr>
+    </transition>
+
+
+    <transition
+        android:fromId="@+id/back"
+        android:toId="@+id/menu">
+        <aapt:attr name="android:drawable">
+            <animated-vector android:drawable="@drawable/ic_menu">
+                <target android:name="iconPath">
+                    <aapt:attr name="android:animation">
+                        <objectAnimator
+                            android:duration="300"
+                            android:propertyName="pathData"
+                            android:valueFrom="@string/path_data_back"
+                            android:valueTo="@string/path_data_menu"
+                            android:valueType="pathType" />
+                    </aapt:attr>
+                </target>
+            </animated-vector>
+        </aapt:attr>
+    </transition>
+
+</animated-selector>

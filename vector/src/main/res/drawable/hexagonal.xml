@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="90dp"
+    android:height="105dp"
+    android:viewportWidth="180"
+    android:viewportHeight="210">
+
+    <!--    <path-->
+    <!--        android:pathData="-->
+    <!--        M85,10 q5,-3 10,0 L170,50-->
+    <!--        q5,3 5,10 L175,150-->
+    <!--        q0,6 -5,10 L95,200-->
+    <!--        qq-5,3 -10,0  L10,155-->
+    <!--        q-5,-3 -5,-10 L5,60-->
+    <!--        q0,-5 5,-10z"-->
+    <!--        android:strokeWidth="5"-->
+    <!--        android:strokeColor="#FFF"-->
+    <!--        android:strokeLineCap="round"-->
+    <!--        android:strokeLineJoin="round" />-->
+
+    <path
+        android:pathData="M90,5 L175,55 L175,155 L90,205 L5,155 L5,55 z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFF" />
+
+    <group
+        android:name="groupOne"
+        android:pivotX="90"
+        android:pivotY="105">
+        <path
+            android:name="pathOne"
+            android:pathData="M90,14 L166,59 L166,151 L90,196 L14,151 L14,59z"
+            android:strokeWidth="2"
+            android:strokeColor="#FFF" />
+    </group>
+
+    <group
+        android:name="groupTwo"
+        android:pivotX="90"
+        android:pivotY="105">
+        <path
+            android:name="pathTwo"
+            android:pathData="M90,14 L166,59 L166,151 L90,196 L14,151 L14,59z"
+            android:strokeWidth="2"
+            android:strokeColor="#FFF" />
+    </group>
+
+    <group
+        android:name="groupThree"
+        android:pivotX="90"
+        android:pivotY="105">
+        <path
+            android:name="pathThree"
+            android:pathData="M90,14 L166,59 L166,151 L90,196 L14,151 L14,59z"
+            android:strokeWidth="2"
+            android:strokeColor="#FFF" />
+    </group>
+</vector>

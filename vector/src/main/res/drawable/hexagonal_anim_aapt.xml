@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/hexagonal">
+    <target android:name="groupOne">
+        <aapt:attr name="android:animation">
+            <set
+                android:interpolator="@android:anim/linear_interpolator"
+                android:startDelay="0">
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotX="50%p"
+                    android:propertyName="scaleX"
+                    android:repeatCount="infinite"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotY="50%p"
+                    android:propertyName="scaleY"
+                    android:repeatCount="infinite"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+            </set>
+        </aapt:attr>
+    </target>
+
+    <target android:name="groupTwo">
+        <aapt:attr name="android:animation">
+            <set android:interpolator="@android:anim/linear_interpolator">
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotX="50%p"
+                    android:propertyName="scaleX"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotY="50%p"
+                    android:propertyName="scaleY"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+            </set>
+        </aapt:attr>
+    </target>
+
+    <target android:name="groupThree">
+        <aapt:attr name="android:animation">
+            <set android:interpolator="@android:anim/linear_interpolator">
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotX="50%p"
+                    android:propertyName="scaleX"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+                <objectAnimator
+                    android:duration="1200"
+                    android:pivotY="50%p"
+                    android:propertyName="scaleY"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="1"
+                    android:valueTo="0.2" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="pathOne">
+        <aapt:attr name="android:animation">
+            <set
+                android:interpolator="@android:anim/linear_interpolator"
+                android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="900"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:valueFrom="1"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="pathTwo">
+        <aapt:attr name="android:animation">
+            <set
+                android:interpolator="@android:anim/linear_interpolator"
+                android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="900"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="1"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="pathThree">
+        <aapt:attr name="android:animation">
+            <set
+                android:interpolator="@android:anim/linear_interpolator"
+                android:ordering="sequentially">
+                <objectAnimator
+                    android:duration="300"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="900"
+                    android:propertyName="strokeAlpha"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="1"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

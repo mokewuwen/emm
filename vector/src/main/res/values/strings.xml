@@ -5,4 +5,10 @@
         <item>2222</item>
     </array>
     <string name="app_name1">Test</string>
+    <string name="to_drawable">to drawable</string>
+    <string name="level">level</string>
+    <string name="cctv_anime">cctv anime</string>
+    <string name="course">course</string>
+    <string name="path_data_menu">M10,10 l20,0 M10,20 l20,0 M10,30 l20,0 </string>
+    <string name="path_data_back">M10,20 l10,-10 M10,20 l25,0 M10,20 l10,10</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SweepView">
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="corner" format="dimension" />
+        <attr name="colors" format="string" />
+        <attr name="positions" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ccc"
-    android:gravity="center_horizontal"
+    android:background="@drawable/bitmap_bg"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,13 +11,42 @@
         android:id="@+id/mIvTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:src="@drawable/anim_code_translate"
         android:stateListAnimator="@drawable/anim_scale" />
 
-    <Button
-        android:id="@+id/mBtnTest"
+    <ImageView
+        android:id="@+id/iv_loading"
         android:layout_width="wrap_content"
-        android:text="test"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_loading"
+        android:tint="#a45" />
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anime_menu_back_switch_aapt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_toDrawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_drawable" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ivHexagonal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hexagonal_anim_aapt" />
 </LinearLayout>

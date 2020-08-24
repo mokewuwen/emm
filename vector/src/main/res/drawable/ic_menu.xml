@@ -5,12 +5,10 @@
     android:viewportWidth="40"
     android:viewportHeight="40">
     <path
-        android:pathData="M14,10 v20 M26,10 v20 "
+        android:name="iconPath"
+        android:pathData="@string/path_data_menu"
         android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
         android:strokeColor="#000" />
-
-    <path
-        android:pathData="M0,0 V40 H40 V0 z"
-        android:strokeWidth="0.1"
-        android:strokeColor="#a5b" />
 </vector>

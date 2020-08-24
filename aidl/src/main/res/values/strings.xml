@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">aidl</string>
+
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="stop">stop</string>
+    <string name="reset">reset</string>
+</resources>
